@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "*"
+scipy = "*"
+numpy = "*"
+opencv-contrib-python = "*"
+keras = "*"
+pillow = "*"
+matplotlib = "*"
+scikit-learn = "*"
+pandas = "*"
+jupyter = "*"
+tensorboard = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
